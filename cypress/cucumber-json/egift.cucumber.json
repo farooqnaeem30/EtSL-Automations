@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Application",
+    "line": 2,
+    "id": "login-to-application",
+    "tags": [
+      {
+        "name": "@egift",
+        "line": 1
+      }
+    ],
+    "uri": "egift.feature",
+    "elements": [
+      {
+        "id": "login-to-application;creating-up-the-egift-with-coffee,sending-it-and-verifying-the-anaylytics.",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Creating up the egift with coffee,sending it and verifying the anaylytics.",
+        "tags": [
+          {
+            "name": "@egift",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I read the file with the \"profiles\" and \"coffeeurl\"",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open up the integration page",
+            "result": {
+              "status": "passed",
+              "duration": 6474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter the username in the username field on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the password in the password field on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the submit button of second button",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the close popup of the application",
+            "result": {
+              "status": "passed",
+              "duration": 20283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the create touch button",
+            "result": {
+              "status": "passed",
+              "duration": 3039000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

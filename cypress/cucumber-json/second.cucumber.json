@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Application for the second",
+    "line": 2,
+    "id": "login-to-application-for-the-second",
+    "tags": [
+      {
+        "name": "@second",
+        "line": 1
+      }
+    ],
+    "uri": "second.feature",
+    "elements": [
+      {
+        "id": "login-to-application-for-the-second;scenario-outline-name:-login-to-the-sendoso-application-with-the-valid-credentials-for-the-second",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Scenario Outline name: Login to the sendoso application with the valid credentials for the second",
+        "tags": [
+          {
+            "name": "@second",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open login page",
+            "result": {
+              "status": "passed",
+              "duration": 9037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill username with of sendoso applicaton \"manager@sendoso.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the submit button of second button",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

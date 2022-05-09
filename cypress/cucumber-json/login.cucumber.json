@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Application",
+    "line": 2,
+    "id": "login-to-application",
+    "tags": [
+      {
+        "name": "@feature-tag",
+        "line": 1
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-to-application;login-to-the-sendoso-application-with-the-valid-credentials.",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login to the sendoso application with the valid credentials.",
+        "tags": [
+          {
+            "name": "@feature-tag",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I read the file with the \"profiles\" and \"estyCredentials\"",
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open login page",
+            "result": {
+              "status": "passed",
+              "duration": 25221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the signIn button",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the register button",
+            "result": {
+              "status": "passed",
+              "duration": 721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter the email address",
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter the first name for registeration",
+            "result": {
+              "status": "passed",
+              "duration": 473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I enter the password in the password field",
+            "result": {
+              "status": "passed",
+              "duration": 683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the register button of esy site",
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

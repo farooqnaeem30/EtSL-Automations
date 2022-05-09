@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Application",
+    "line": 1,
+    "id": "login-to-application",
+    "tags": [],
+    "uri": "product_cart.feature",
+    "elements": [
+      {
+        "id": "login-to-application;login-to-the-application-and-remove-the-product",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Login to the application and remove the product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I read the file with the \"profiles\" and \"estyLoginCredentials\"",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I open login page",
+            "result": {
+              "status": "passed",
+              "duration": 13831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on the signIn button",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I enter the email address",
+            "result": {
+              "status": "passed",
+              "duration": 1879000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I enter the password in the password field",
+            "result": {
+              "status": "passed",
+              "duration": 604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on the signIn button of the form",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "verify user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 14768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on the basket button",
+            "result": {
+              "status": "passed",
+              "duration": 4354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I remove the product from the basket",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "verify the product is being removed from the cart",
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

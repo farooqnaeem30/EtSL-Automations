@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Application",
+    "line": 1,
+    "id": "login-to-application",
+    "tags": [],
+    "uri": "user_login.feature",
+    "elements": [
+      {
+        "id": "login-to-application;login-to-the-sendoso-application-with-the-valid-credentials.",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login to the sendoso application with the valid credentials.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I read the file with the \"profiles\" and \"estyLoginCredentials\"",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open login page",
+            "result": {
+              "status": "passed",
+              "duration": 52772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the signIn button",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter the email address",
+            "result": {
+              "status": "passed",
+              "duration": 1872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the password in the password field",
+            "result": {
+              "status": "passed",
+              "duration": 555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the signIn button of the form",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 24866000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

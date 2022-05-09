@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login with invalid credentials",
+    "line": 2,
+    "id": "login-with-invalid-credentials",
+    "tags": [],
+    "uri": "invalidCredentails.feature",
+    "elements": [
+      {
+        "id": "login-with-invalid-credentials;login-to-the-application-and-remove-the-product",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login to the application and remove the product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I read the file with the \"profiles\" and \"estyInvalidCredentials\"",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open login page",
+            "result": {
+              "status": "passed",
+              "duration": 9550000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the signIn button",
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the email address",
+            "result": {
+              "status": "passed",
+              "duration": 1759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter the password in the password field",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the signIn button of the form",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

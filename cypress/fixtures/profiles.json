@@ -1,0 +1,33 @@
+{
+  "coffeeurl":{
+     "url":"https://integration-app.sendoso.com",
+     "username":"omer.bakhtiar+5@sendoso.com",
+     "password":"Omer@1989"
+  },
+  "testing":{
+     "type":"home",
+     "password":"111 111-1111"
+  },
+  "cameosend":{
+    "url":"https://integration-app.sendoso.com",
+    "username":"farooq+3@sendoso.com",
+    "password":"A542ef$bc0dd8%"
+  },
+  "estyCredentials": {
+    "url": "https://www.etsy.com",
+    "email": "farooqnaeem@gmail.com",
+    "firstName": "farooq",
+    "password": "A542ef$bc0dd8%"
+  },
+  "estyLoginCredentials": {
+    "url": "https://www.etsy.com",
+    "email": "qnaeem@gmail.com",
+    "firstName": "farooq",
+    "password": "A542ef$bc0dd8%"
+  },
+  "estyInvalidCredentials": {
+    "url": "https://www.etsy.com",
+    "email": "qnaeem@gmail.com",
+    "password": "A542ef$bc0dd81"
+  }
+}

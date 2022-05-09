@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Application for the reading file",
+    "line": 2,
+    "id": "login-to-application-for-the-reading-file",
+    "tags": [
+      {
+        "name": "@feature-tag",
+        "line": 1
+      }
+    ],
+    "uri": "third.feature",
+    "elements": [
+      {
+        "id": "login-to-application-for-the-reading-file;login-to-the-sendoso-application-with-the-valid-credentials-of-reading-file",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login to the sendoso application with the valid credentials of reading file",
+        "tags": [
+          {
+            "name": "@feature-tag",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I read the file with the \"profiles\" and \"testing\"",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

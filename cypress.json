@@ -1,0 +1,15 @@
+{
+  "video": false,
+  "defaultCommandTimeout": 50000,
+  "pageLoadTimeout": 500000,
+  "ignoreTestFiles": ["*.js", "*.md"],
+  "testFiles": "**/*.{feature,features}",
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "projectId": "ysysvz",
+  "chromeWebSecurity": false,
+  "experimentalSourceRewriting": true
+
+
+}
+
